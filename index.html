@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brazil Songs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="container titulo">Brazil Songs</h1>
+            <div class="botao-menu">
+                <button type="button">Abrir Menu</button>
+            </div>
+            <div class="container">
+                <ul class="menu">
+                    <li>
+                        Marcas mais vendidas
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Fender</a>
+                            </li>
+                            <li>
+                                <a href="#">Gibson</a>
+                            </li>
+                            <li>
+                                <a href="#">Ibanez</a>
+                            </li>
+                        </ul>
+                    </li>
+        
+                    <li>
+                        Semi-Novos
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Violão</a>
+                            </li>
+                            <li>
+                                <a href="#">Guitarra</a>
+                            </li>
+                            <li>
+                                <a href="#">Baixo</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </header>
+        
+        <div class="container conteudo">
+            <main>
+                <section class="destaque">
+                    <img src="./imagens/loja.jpeg" width="380" height="210" alt="imagem de uma loja">
+                    <div id="sobre-a-loja">
+                        <h2>Sobre a Loja</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptate cumque provident assumenda nisi saepe non distinctio error voluptas labore sed iure, quasi cupiditate praesentium corporis delectus eligendi dolorum? Rem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolores consequuntur in, amet cupiditate ad quibusdam odit eveniet, corrupti quo, pariatur deleniti possimus exercitationem optio suscipit. Provident eos labore odio.</p>
+                    </div>
+                    
+                </section>
+                <section class="conteudo">
+                        <h2 id="Promocao">Promoções</h2>
+                        <div class="noticias">
+
+                            <article class="noticia">
+                                <a href="#">
+                                    <img src="./imagens/Acordeon Scandalli .jpeg" width="200">
+                                </a>
+                                <h3><strong>Acordeon Scandalli 120 baixos</strong></h3>
+                                <button type="submit">Adicionar ao carrinho</button>
+                            </article>
+    
+                            <article class="noticia">
+                                <a href="#">
+                                    <img src="./imagens/Acustic Guitar Taylor.jpeg" width="300">
+                                </a>
+                                <h3><strong>Violão Taylor</strong></h3>
+                                <button type="submit">Adicionar ao carrinho</button>
+                            </article>
+    
+                            <article class="noticia">
+                                <a href="#">
+                                    <img src="./imagens/Baixo Fender ultra.webp" width="170">
+                                </a>
+                                <h3><strong>Baixo Fender Ultra</strong></h3>
+                                <button type="submit">Adicionar ao carrinho</button>
+                            </article>
+    
+                            <article class="noticia">
+                                <a href="#">
+                                    <img src="./imagens/Guitar Fender Telecaster.jpeg"width="200" height="170">
+                                </a>
+                                <h3><strong>Guitarra Fender</strong></h3>
+                                <button type="submit">Adicionar ao carrinho</button>
+                            </article>
+                            
+                        </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="./main.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.botao-menu button').click(function() {
+            $('.menu').slideToggle();
+        })
+    })
+</script>
+    
+</body>
+</html>
